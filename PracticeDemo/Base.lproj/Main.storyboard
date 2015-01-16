@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ndQ-b5-Oti">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ndQ-b5-Oti">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
@@ -23,7 +23,7 @@
         <!--View Controller-->
         <scene sceneID="NXE-MO-d8K">
             <objects>
-                <viewController id="yd5-Hc-sgx" sceneMemberID="viewController">
+                <viewController id="yd5-Hc-sgx" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bfa-fN-sWl"/>
                         <viewControllerLayoutGuide type="bottom" id="SlF-uS-tx6"/>
@@ -55,10 +55,37 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="S5G-Wd-BpU"/>
+                    <connections>
+                        <outlet property="_tableView" destination="Yxf-3R-UT5" id="kvS-Wa-Y1w"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z1L-wi-ECA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="765" y="428"/>
+        </scene>
+        <!--Collection View Controller-->
+        <scene sceneID="e6g-v2-xGx">
+            <objects>
+                <collectionViewController storyboardIdentifier="CollectionViewController" id="iyP-SM-OBW" customClass="CollectionViewController" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="nwF-1F-d6X">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="reA-mK-yVJ">
+                            <size key="itemSize" width="100" height="102"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells/>
+                        <connections>
+                            <outlet property="dataSource" destination="iyP-SM-OBW" id="C7t-gG-hWR"/>
+                            <outlet property="delegate" destination="iyP-SM-OBW" id="Ddl-rX-x35"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YMr-vC-EZS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1439" y="428"/>
         </scene>
     </scenes>
 </document>

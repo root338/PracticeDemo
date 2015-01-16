@@ -14,7 +14,7 @@
 
 @property (strong, nonatomic) NSString *title;
 
-+ (PracticeClassModel *)create_title:(NSString *)title class:(Class)className;
++ (PracticeClassModel *)create_title:(NSString *)title className:(NSString *)className;
 @end
 
 @interface ViewController : UIViewController
