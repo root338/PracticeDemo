@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182BC7931A695DCB004D38FE /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182BC7921A695DCB004D38FE /* CollectionViewController.m */; };
+		182BC7961A695E2A004D38FE /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 182BC7951A695E2A004D38FE /* CollectionViewCell.m */; };
+		18B2571E1A69687600316261 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B2571D1A69687600316261 /* Reveal.framework */; };
+		18B257211A6970AF00316261 /* SingleCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B257201A6970AF00316261 /* SingleCollectionLayout.m */; };
 		D6A32AC11A689D81007BA0C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A32AC01A689D81007BA0C3 /* main.m */; };
 		D6A32AC41A689D81007BA0C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A32AC31A689D81007BA0C3 /* AppDelegate.m */; };
 		D6A32AC71A689D81007BA0C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A32AC61A689D81007BA0C3 /* ViewController.m */; };
@@ -14,7 +18,6 @@
 		D6A32ACC1A689D81007BA0C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6A32ACB1A689D81007BA0C3 /* Images.xcassets */; };
 		D6A32ACF1A689D81007BA0C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A32ACD1A689D81007BA0C3 /* LaunchScreen.xib */; };
 		D6A32ADB1A689D81007BA0C3 /* PracticeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A32ADA1A689D81007BA0C3 /* PracticeDemoTests.m */; };
-		D6E836C71A68FE890044BC3F /* TestCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E836C61A68FE890044BC3F /* TestCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +31,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182BC7911A695DCB004D38FE /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewController.h; path = collectionView/CollectionViewController.h; sourceTree = "<group>"; };
+		182BC7921A695DCB004D38FE /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionViewController.m; path = collectionView/CollectionViewController.m; sourceTree = "<group>"; };
+		182BC7941A695E2A004D38FE /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewCell.h; path = collectionView/CollectionViewCell.h; sourceTree = "<group>"; };
+		182BC7951A695E2A004D38FE /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionViewCell.m; path = collectionView/CollectionViewCell.m; sourceTree = "<group>"; };
+		18B2571D1A69687600316261 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		18B2571F1A6970AF00316261 /* SingleCollectionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SingleCollectionLayout.h; path = collectionView/SingleCollectionLayout.h; sourceTree = "<group>"; };
+		18B257201A6970AF00316261 /* SingleCollectionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SingleCollectionLayout.m; path = collectionView/SingleCollectionLayout.m; sourceTree = "<group>"; };
 		D6A32ABB1A689D81007BA0C3 /* PracticeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A32ABF1A689D81007BA0C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6A32AC01A689D81007BA0C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,8 +51,6 @@
 		D6A32AD41A689D81007BA0C3 /* PracticeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A32AD91A689D81007BA0C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6A32ADA1A689D81007BA0C3 /* PracticeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeDemoTests.m; sourceTree = "<group>"; };
-		D6E836C51A68FE890044BC3F /* TestCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewController.h; sourceTree = "<group>"; };
-		D6E836C61A68FE890044BC3F /* TestCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B2571E1A69687600316261 /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		182BC7901A695DA3004D38FE /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				182BC7911A695DCB004D38FE /* CollectionViewController.h */,
+				182BC7921A695DCB004D38FE /* CollectionViewController.m */,
+				18B2571F1A6970AF00316261 /* SingleCollectionLayout.h */,
+				18B257201A6970AF00316261 /* SingleCollectionLayout.m */,
+				182BC7941A695E2A004D38FE /* CollectionViewCell.h */,
+				182BC7951A695E2A004D38FE /* CollectionViewCell.m */,
+			);
+			name = collectionView;
+			sourceTree = "<group>";
+		};
 		D6A32AB21A689D81007BA0C3 = {
 			isa = PBXGroup;
 			children = (
@@ -88,7 +110,8 @@
 				D6A32AC31A689D81007BA0C3 /* AppDelegate.m */,
 				D6A32AC51A689D81007BA0C3 /* ViewController.h */,
 				D6A32AC61A689D81007BA0C3 /* ViewController.m */,
-				D6E836C41A68FE6C0044BC3F /* collectionView */,
+				18B2571D1A69687600316261 /* Reveal.framework */,
+				182BC7901A695DA3004D38FE /* collectionView */,
 				D6A32AC81A689D81007BA0C3 /* Main.storyboard */,
 				D6A32ACB1A689D81007BA0C3 /* Images.xcassets */,
 				D6A32ACD1A689D81007BA0C3 /* LaunchScreen.xib */,
@@ -121,15 +144,6 @@
 				D6A32AD91A689D81007BA0C3 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D6E836C41A68FE6C0044BC3F /* collectionView */ = {
-			isa = PBXGroup;
-			children = (
-				D6E836C51A68FE890044BC3F /* TestCollectionViewController.h */,
-				D6E836C61A68FE890044BC3F /* TestCollectionViewController.m */,
-			);
-			name = collectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +246,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6E836C71A68FE890044BC3F /* TestCollectionViewController.m in Sources */,
+				182BC7931A695DCB004D38FE /* CollectionViewController.m in Sources */,
+				182BC7961A695E2A004D38FE /* CollectionViewCell.m in Sources */,
 				D6A32AC71A689D81007BA0C3 /* ViewController.m in Sources */,
+				18B257211A6970AF00316261 /* SingleCollectionLayout.m in Sources */,
 				D6A32AC41A689D81007BA0C3 /* AppDelegate.m in Sources */,
 				D6A32AC11A689D81007BA0C3 /* main.m in Sources */,
 			);
@@ -360,8 +376,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PracticeDemo",
+				);
 				INFOPLIST_FILE = PracticeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CODE_SIGN_FLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -371,8 +393,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PracticeDemo",
+				);
 				INFOPLIST_FILE = PracticeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CODE_SIGN_FLAGS = "";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

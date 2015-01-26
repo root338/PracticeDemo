@@ -28,7 +28,7 @@
 - (void)setupTableView
 {
     _dataSource = [NSMutableArray arrayWithObjects:
-                   
+                   [PracticeClassModel create_title:@"collection view test" className:@"CollectionViewController"],
                    nil];
     _tableView.delegate = self;
     _tableView.dataSource = self;
@@ -71,11 +71,12 @@
 
 @implementation PracticeClassModel
 
-+ (PracticeClassModel *)create_title:(NSString *)title class:(Class)className
++ (PracticeClassModel *)create_title:(NSString *)title className:(NSString *)className
 {
     PracticeClassModel *model = [[PracticeClassModel alloc] init];
     model.title = title;
-    model.className = className;
+    
+    model.className = NSClassFromString(className);
     return model;
 }
 
