@@ -14,6 +14,7 @@
 		D6A32ACC1A689D81007BA0C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6A32ACB1A689D81007BA0C3 /* Images.xcassets */; };
 		D6A32ACF1A689D81007BA0C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A32ACD1A689D81007BA0C3 /* LaunchScreen.xib */; };
 		D6A32ADB1A689D81007BA0C3 /* PracticeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A32ADA1A689D81007BA0C3 /* PracticeDemoTests.m */; };
+		D6E836C71A68FE890044BC3F /* TestCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E836C61A68FE890044BC3F /* TestCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D6A32AD41A689D81007BA0C3 /* PracticeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A32AD91A689D81007BA0C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6A32ADA1A689D81007BA0C3 /* PracticeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeDemoTests.m; sourceTree = "<group>"; };
+		D6E836C51A68FE890044BC3F /* TestCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewController.h; sourceTree = "<group>"; };
+		D6E836C61A68FE890044BC3F /* TestCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,7 @@
 				D6A32AC31A689D81007BA0C3 /* AppDelegate.m */,
 				D6A32AC51A689D81007BA0C3 /* ViewController.h */,
 				D6A32AC61A689D81007BA0C3 /* ViewController.m */,
+				D6E836C41A68FE6C0044BC3F /* collectionView */,
 				D6A32AC81A689D81007BA0C3 /* Main.storyboard */,
 				D6A32ACB1A689D81007BA0C3 /* Images.xcassets */,
 				D6A32ACD1A689D81007BA0C3 /* LaunchScreen.xib */,
@@ -117,6 +121,15 @@
 				D6A32AD91A689D81007BA0C3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6E836C41A68FE6C0044BC3F /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				D6E836C51A68FE890044BC3F /* TestCollectionViewController.h */,
+				D6E836C61A68FE890044BC3F /* TestCollectionViewController.m */,
+			);
+			name = collectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E836C71A68FE890044BC3F /* TestCollectionViewController.m in Sources */,
 				D6A32AC71A689D81007BA0C3 /* ViewController.m in Sources */,
 				D6A32AC41A689D81007BA0C3 /* AppDelegate.m in Sources */,
 				D6A32AC11A689D81007BA0C3 /* main.m in Sources */,
