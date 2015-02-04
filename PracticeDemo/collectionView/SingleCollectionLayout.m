@@ -67,7 +67,7 @@
         CGRect viRect = (CGRect){(CGPoint)self.collectionView.contentOffset, (CGSize)self.collectionView.bounds.size};
         attributes.alpha = 0;
         attributes.center = CGPointMake(CGRectGetMidX(viRect), CGRectGetMidY(viRect));
-        attributes.transform3D = CATransform3DMakeTranslation(1.3, 1.3, 1);
+        attributes.transform3D = CATransform3DMakeScale(1.3, 1.3, 1);
         return attributes;
     }else {
         return [super finalLayoutAttributesForDisappearingItemAtIndexPath:itemIndexPath];
