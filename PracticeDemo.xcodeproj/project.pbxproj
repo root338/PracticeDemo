@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		182BC7931A695DCB004D38FE /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182BC7921A695DCB004D38FE /* CollectionViewController.m */; };
 		182BC7961A695E2A004D38FE /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 182BC7951A695E2A004D38FE /* CollectionViewCell.m */; };
+		1855CE311A6D4E62002823EC /* PinchLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1855CE301A6D4E62002823EC /* PinchLayout.m */; };
 		18B2571E1A69687600316261 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B2571D1A69687600316261 /* Reveal.framework */; };
 		18B257211A6970AF00316261 /* SingleCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B257201A6970AF00316261 /* SingleCollectionLayout.m */; };
 		D6A32AC11A689D81007BA0C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A32AC01A689D81007BA0C3 /* main.m */; };
@@ -35,6 +36,8 @@
 		182BC7921A695DCB004D38FE /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionViewController.m; path = collectionView/CollectionViewController.m; sourceTree = "<group>"; };
 		182BC7941A695E2A004D38FE /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewCell.h; path = collectionView/CollectionViewCell.h; sourceTree = "<group>"; };
 		182BC7951A695E2A004D38FE /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionViewCell.m; path = collectionView/CollectionViewCell.m; sourceTree = "<group>"; };
+		1855CE2F1A6D4E62002823EC /* PinchLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchLayout.h; sourceTree = "<group>"; };
+		1855CE301A6D4E62002823EC /* PinchLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchLayout.m; sourceTree = "<group>"; };
 		18B2571D1A69687600316261 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 		18B2571F1A6970AF00316261 /* SingleCollectionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SingleCollectionLayout.h; path = collectionView/SingleCollectionLayout.h; sourceTree = "<group>"; };
 		18B257201A6970AF00316261 /* SingleCollectionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SingleCollectionLayout.m; path = collectionView/SingleCollectionLayout.m; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 				18B257201A6970AF00316261 /* SingleCollectionLayout.m */,
 				182BC7941A695E2A004D38FE /* CollectionViewCell.h */,
 				182BC7951A695E2A004D38FE /* CollectionViewCell.m */,
+				1855CE2F1A6D4E62002823EC /* PinchLayout.h */,
+				1855CE301A6D4E62002823EC /* PinchLayout.m */,
 			);
 			name = collectionView;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 				182BC7931A695DCB004D38FE /* CollectionViewController.m in Sources */,
 				182BC7961A695E2A004D38FE /* CollectionViewCell.m in Sources */,
 				D6A32AC71A689D81007BA0C3 /* ViewController.m in Sources */,
+				1855CE311A6D4E62002823EC /* PinchLayout.m in Sources */,
 				18B257211A6970AF00316261 /* SingleCollectionLayout.m in Sources */,
 				D6A32AC41A689D81007BA0C3 /* AppDelegate.m in Sources */,
 				D6A32AC11A689D81007BA0C3 /* main.m in Sources */,
