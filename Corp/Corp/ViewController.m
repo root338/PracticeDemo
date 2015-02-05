@@ -24,7 +24,7 @@
 //    CGZoomScrollView *cropImage= [[CGZoomScrollView alloc] initWithFrame:self.view.bounds];
     CGCropImage *cropImage= [[CGCropImage alloc] initWithFrame:self.view.bounds];
 //    cropImage.isAutoImageViewContentMode = YES;
-    cropImage.image = [UIImage imageNamed:@"2.jpg"];
+    cropImage.image = [UIImage imageNamed:@"1.jpg"];
     self.view = cropImage;
     
     
@@ -34,5 +34,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end

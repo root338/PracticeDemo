@@ -43,6 +43,8 @@
 
 /**
  加载的图片
+ 
+ 默认加载方式为UIViewContentModeScaleAspectFit
  */
 @property (strong, nonatomic) UIImage *image;
 
@@ -78,4 +80,11 @@
  图片当前显示的区域
  */
 @property (assign, nonatomic, readonly) CGRect imageCurrentRect;
+
+@property (strong, nonatomic, readonly) UIScrollView *scrollView;
+
+/**
+ 缩放手势的触发器
+ */
+- (void)zoomImageView:(UIPinchGestureRecognizer *)pinch;
 @end

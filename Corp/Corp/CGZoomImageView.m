@@ -17,7 +17,7 @@
 
 @property (strong, nonatomic) UIImageView *imageView;
 
-@property (strong, nonatomic) UIScrollView *scrollView;
+@property (strong, nonatomic, readwrite) UIScrollView *scrollView;
 
 /**
  图片当前显示的区域
@@ -168,7 +168,7 @@
             ///设置滚动视图的偏移量
             self.scrollView.contentOffset = offset;
             
-            self.currentZoomScale = scale;
+            _currentZoomScale = scale;
         }
     }
 }
@@ -204,6 +204,12 @@
         }
         [self zoomImageScale:imageScale];
     }
+}
+
+- (void)setCurrentZoomScale:(CGFloat)currentZoomScale
+{
+    _currentZoomScale = currentZoomScale;
+    [self zoomImageScale:currentZoomScale];
 }
 
 - (void)setIsAutoImageViewContentMode:(BOOL)isAutoImageViewContentMode
