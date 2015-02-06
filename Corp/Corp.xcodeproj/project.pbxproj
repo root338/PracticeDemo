@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D68A93111A84A78500FAF854 /* CGCropImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D68A930C1A84A78500FAF854 /* CGCropImage.m */; };
+		D68A93121A84A78500FAF854 /* CGCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = D68A930E1A84A78500FAF854 /* CGCropView.m */; };
+		D68A93131A84A78500FAF854 /* CGZoomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D68A93101A84A78500FAF854 /* CGZoomImageView.m */; };
 		D6D49A5C1A7A39EB00BE0904 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D49A5B1A7A39EB00BE0904 /* main.m */; };
 		D6D49A5F1A7A39EB00BE0904 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D49A5E1A7A39EB00BE0904 /* AppDelegate.m */; };
 		D6D49A621A7A39EB00BE0904 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D49A611A7A39EB00BE0904 /* ViewController.m */; };
@@ -14,12 +17,9 @@
 		D6D49A671A7A39EB00BE0904 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D49A661A7A39EB00BE0904 /* Images.xcassets */; };
 		D6D49A6A1A7A39EB00BE0904 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6D49A681A7A39EB00BE0904 /* LaunchScreen.xib */; };
 		D6D49A761A7A39EC00BE0904 /* CorpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D49A751A7A39EC00BE0904 /* CorpTests.m */; };
-		D6D49A811A7B5A8100BE0904 /* CGCropImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D49A801A7B5A8100BE0904 /* CGCropImage.m */; };
 		D6D49A831A7B5EE500BE0904 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6D49A821A7B5EE500BE0904 /* 1.jpg */; };
 		D6D49A861A7B663800BE0904 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D49A851A7B663800BE0904 /* TableViewController.m */; };
 		D6EF948E1A7F205800666ED5 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6EF948D1A7F205800666ED5 /* 2.jpg */; };
-		D6EF94911A7F499C00666ED5 /* CGZoomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EF94901A7F499C00666ED5 /* CGZoomImageView.m */; };
-		D6EF949A1A7F666700666ED5 /* CGCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EF94991A7F666700666ED5 /* CGCropView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D68A930B1A84A78500FAF854 /* CGCropImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCropImage.h; sourceTree = "<group>"; };
+		D68A930C1A84A78500FAF854 /* CGCropImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCropImage.m; sourceTree = "<group>"; };
+		D68A930D1A84A78500FAF854 /* CGCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCropView.h; sourceTree = "<group>"; };
+		D68A930E1A84A78500FAF854 /* CGCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCropView.m; sourceTree = "<group>"; };
+		D68A930F1A84A78500FAF854 /* CGZoomImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGZoomImageView.h; sourceTree = "<group>"; };
+		D68A93101A84A78500FAF854 /* CGZoomImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGZoomImageView.m; sourceTree = "<group>"; };
 		D6D49A561A7A39EB00BE0904 /* Corp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Corp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D49A5A1A7A39EB00BE0904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6D49A5B1A7A39EB00BE0904 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,16 +52,10 @@
 		D6D49A6F1A7A39EB00BE0904 /* CorpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CorpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D49A741A7A39EC00BE0904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6D49A751A7A39EC00BE0904 /* CorpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CorpTests.m; sourceTree = "<group>"; };
-		D6D49A7F1A7B5A8100BE0904 /* CGCropImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCropImage.h; sourceTree = "<group>"; };
-		D6D49A801A7B5A8100BE0904 /* CGCropImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCropImage.m; sourceTree = "<group>"; };
 		D6D49A821A7B5EE500BE0904 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		D6D49A841A7B663700BE0904 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		D6D49A851A7B663800BE0904 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		D6EF948D1A7F205800666ED5 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
-		D6EF948F1A7F499C00666ED5 /* CGZoomImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGZoomImageView.h; sourceTree = "<group>"; };
-		D6EF94901A7F499C00666ED5 /* CGZoomImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGZoomImageView.m; sourceTree = "<group>"; };
-		D6EF94981A7F666700666ED5 /* CGCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCropView.h; sourceTree = "<group>"; };
-		D6EF94991A7F666700666ED5 /* CGCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCropView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +76,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D68A930A1A84A78500FAF854 /* CGImageView */ = {
+			isa = PBXGroup;
+			children = (
+				D68A930B1A84A78500FAF854 /* CGCropImage.h */,
+				D68A930C1A84A78500FAF854 /* CGCropImage.m */,
+				D68A930D1A84A78500FAF854 /* CGCropView.h */,
+				D68A930E1A84A78500FAF854 /* CGCropView.m */,
+				D68A930F1A84A78500FAF854 /* CGZoomImageView.h */,
+				D68A93101A84A78500FAF854 /* CGZoomImageView.m */,
+			);
+			name = CGImageView;
+			path = ../../CGKit/CGView/CGImageView;
+			sourceTree = "<group>";
+		};
 		D6D49A4D1A7A39EB00BE0904 = {
 			isa = PBXGroup;
 			children = (
@@ -103,12 +117,7 @@
 				D6D49A5E1A7A39EB00BE0904 /* AppDelegate.m */,
 				D6D49A601A7A39EB00BE0904 /* ViewController.h */,
 				D6D49A611A7A39EB00BE0904 /* ViewController.m */,
-				D6D49A7F1A7B5A8100BE0904 /* CGCropImage.h */,
-				D6D49A801A7B5A8100BE0904 /* CGCropImage.m */,
-				D6EF948F1A7F499C00666ED5 /* CGZoomImageView.h */,
-				D6EF94901A7F499C00666ED5 /* CGZoomImageView.m */,
-				D6EF94981A7F666700666ED5 /* CGCropView.h */,
-				D6EF94991A7F666700666ED5 /* CGCropView.m */,
+				D68A930A1A84A78500FAF854 /* CGImageView */,
 				D6D49A841A7B663700BE0904 /* TableViewController.h */,
 				D6D49A851A7B663800BE0904 /* TableViewController.m */,
 				D6D49A631A7A39EB00BE0904 /* Main.storyboard */,
@@ -248,12 +257,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6D49A621A7A39EB00BE0904 /* ViewController.m in Sources */,
-				D6D49A811A7B5A8100BE0904 /* CGCropImage.m in Sources */,
+				D68A93131A84A78500FAF854 /* CGZoomImageView.m in Sources */,
+				D68A93111A84A78500FAF854 /* CGCropImage.m in Sources */,
 				D6D49A5F1A7A39EB00BE0904 /* AppDelegate.m in Sources */,
+				D68A93121A84A78500FAF854 /* CGCropView.m in Sources */,
 				D6D49A861A7B663800BE0904 /* TableViewController.m in Sources */,
-				D6EF949A1A7F666700666ED5 /* CGCropView.m in Sources */,
 				D6D49A5C1A7A39EB00BE0904 /* main.m in Sources */,
-				D6EF94911A7F499C00666ED5 /* CGZoomImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
