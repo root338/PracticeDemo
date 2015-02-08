@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18C5182B1A871C39007D2428 /* NSObject+AreaCalculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5182A1A871C39007D2428 /* NSObject+AreaCalculate.m */; };
 		D68A93111A84A78500FAF854 /* CGCropImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D68A930C1A84A78500FAF854 /* CGCropImage.m */; };
 		D68A93121A84A78500FAF854 /* CGCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = D68A930E1A84A78500FAF854 /* CGCropView.m */; };
 		D68A93131A84A78500FAF854 /* CGZoomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D68A93101A84A78500FAF854 /* CGZoomImageView.m */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18C518291A871C39007D2428 /* NSObject+AreaCalculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+AreaCalculate.h"; path = "../../UIKit/NSObject+AreaCalculate.h"; sourceTree = "<group>"; };
+		18C5182A1A871C39007D2428 /* NSObject+AreaCalculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+AreaCalculate.m"; path = "../../UIKit/NSObject+AreaCalculate.m"; sourceTree = "<group>"; };
 		D68A930B1A84A78500FAF854 /* CGCropImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCropImage.h; sourceTree = "<group>"; };
 		D68A930C1A84A78500FAF854 /* CGCropImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCropImage.m; sourceTree = "<group>"; };
 		D68A930D1A84A78500FAF854 /* CGCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCropView.h; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				D68A930E1A84A78500FAF854 /* CGCropView.m */,
 				D68A930F1A84A78500FAF854 /* CGZoomImageView.h */,
 				D68A93101A84A78500FAF854 /* CGZoomImageView.m */,
+				18C518291A871C39007D2428 /* NSObject+AreaCalculate.h */,
+				18C5182A1A871C39007D2428 /* NSObject+AreaCalculate.m */,
 			);
 			name = CGImageView;
 			path = ../../CGKit/CGView/CGImageView;
@@ -257,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6D49A621A7A39EB00BE0904 /* ViewController.m in Sources */,
+				18C5182B1A871C39007D2428 /* NSObject+AreaCalculate.m in Sources */,
 				D68A93131A84A78500FAF854 /* CGZoomImageView.m in Sources */,
 				D68A93111A84A78500FAF854 /* CGCropImage.m in Sources */,
 				D6D49A5F1A7A39EB00BE0904 /* AppDelegate.m in Sources */,
